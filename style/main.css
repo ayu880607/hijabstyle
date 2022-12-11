@@ -1,0 +1,250 @@
+.navbar-brand {
+    font-family: 'monserrat';
+    font-weight: 600;
+    font-size: 28p;
+}
+.nav-item {
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: darkorange !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+.nav-link:hover {
+    color: darkorange !important;
+}
+
+/* hero section */
+.hero-section {
+    margin-top: 45px;
+}
+.hero-section h1 {
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 40px;
+}
+.hero-section .btn-cta {
+    margin-top: 80px;
+}
+.hero-section p{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}
+.hero-section .btn-cta img {
+    width: 67px;
+}
+
+.hero-section .btn {
+    border-radius: 0px 18px 18px 0px;
+    margin-left: 15px;
+}
+/* tutup hero section */
+
+.section-title {
+    border-bottom: 3px solid hotpink;
+    width: 8%;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+/* trend categories */
+.tag {
+    z-index: 3;
+    background-color: hotpink;
+    padding: .25rem 1.25rem;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    border-radius: 0px 20px;
+    min-height: 30px;
+}
+.componen-categories {
+    margin-bottom: 32px;
+}
+
+.tag span {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: aliceblue;
+}
+.categories-thumbnail {
+    width: 100%;
+    height: 462px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.categories-thumbnail-small {
+    width: 100%;
+    height: 215px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1.1);
+}
+.categories-thumbnail-small:hover .categories-img {
+    transform: scale(1.1);
+}
+
+.categories-img {
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0.3s ease;
+}
+
+
+
+/* tutup trend categories */
+/* popular produc */
+.popular-product {
+    padding-top: 50px;
+    background-color: rgb(214, 98, 185);
+    padding-bottom: 36px;
+}
+
+.component-product {
+    margin-top: 50px;
+    margin-bottom: 36px;
+    background-color: white;
+    border-radius: 8px 8px;
+    border: black;
+    padding-bottom: 15px;
+    transition: all 0.2s ease;
+    
+}
+.component-product:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.product-img {
+    padding: 0,5rem;
+    border-radius: 8px 8px;
+    background: white;
+    transition: all 0.3s ease;
+}
+.product-text {
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.product-price {
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: darkmagenta;
+}
+/* testimonial */
+.testimonial {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.testimonial-img {
+    width: 350px;
+    height: 250px;
+}
+.testimonial-text {
+    margin-top: 8px;
+    margin-bottom: 8p;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: black;
+}
+.testimonial-name {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    }
+    .btn-testimonial {
+        background-color: fuchsia;
+        width: 150px;
+    height: 38px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: black;
+    transition: all 0.3s ease;
+    }
+    
+    .btn-testimonial:hover {
+        box-shadow: 0px 8px 15px black;
+        border-radius: 4px;
+        transform: scale(1.1);
+    }
+    /* footer */
+    .footer {
+        margin-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #f5f4f5;
+    }
+    .footer h2 {
+        font-family: 'poppins';
+        font-weight: 500;
+        font-size: 36px;
+        text-transform: uppercase;
+        color: black;
+    }
+    .footer h5 {
+        font-weight: 'poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: right;
+        color: black;
+    }
+    .footer p {
+        font-family: 'poppins';
+        font-weight: 300;
+        font-size: 16px;
+        color: black;
+    }
+    .footer-small{
+        background-color: #171938;
+        text-align: center;
+    
+    }
+    .footer-small p {
+        font-family: 'poppins';
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 30px;
+        color: #ffff;
+    }
+    .footer-small a {
+        font-weight: 500;
+        font-size: 16px;
+        text-decoration: none;
+        color: hotpink;
+    }
+    /* tutup footer */
